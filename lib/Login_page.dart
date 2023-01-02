@@ -49,7 +49,7 @@ class _LoginpageState extends State<Loginpage> {
                 children: [
                   TextFormField(
                     decoration: InputDecoration(
-                      hintText: "E nter user name",
+                      hintText: "Enter user name",
                       labelText: "Username"
                     ),
                     validator: (Value){

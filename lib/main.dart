@@ -19,11 +19,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
           primarySwatch: Colors.cyan,
-          fontFamily: GoogleFonts.lato().fontFamily
-        // primaryTextTheme: GoogleFonts.latoTextTheme()
+          fontFamily: GoogleFonts.lato().fontFamily,
+         primaryTextTheme: GoogleFonts.latoTextTheme()
       ),
       darkTheme:ThemeData( brightness :Brightness.dark),
-      initialRoute: "/",
+      initialRoute: myrouts.homeRoute,
       routes: {
         "/":(context) =>new  Loginpage(),
         myrouts.homeRoute: (context) =>Homepage(),
